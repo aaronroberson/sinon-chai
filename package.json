@@ -1,6 +1,6 @@
 {
   "name": "sinon-chai",
-  "description": "Extends Chai with assertions for the Sinon.JS mocking framework.",
+  "description": "Supports sinon 2.0.0-pre.* for extending Chai with assertions for the Sinon.JS mocking framework.",
   "keywords": [
     "chai",
     "chai-plugin",
@@ -30,8 +30,7 @@
     "cover": "istanbul cover node_modules/mocha/bin/_mocha && opener ./coverage/lcov-report/lib/sinon-chai.js.html"
   },
   "peerDependencies": {
-    "chai": ">=1.9.2 <4",
-    "sinon": ">=1.4.0 <2"
+    "chai": ">=1.9.2 <4"
   },
   "devDependencies": {
     "chai": "^3.0.0",
@@ -40,6 +39,6 @@
     "jshint": "^2.5.6",
     "mocha": "^1.21.4",
     "opener": "^1.4.0",
-    "sinon": "^1.10.3"
+    "sinon": "^2.0.0-pre.2"
   }
 }
